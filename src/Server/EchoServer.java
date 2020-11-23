@@ -15,7 +15,7 @@ public class EchoServer {
 
     public static void main(String[] args){
 
-         new EchoServer().startServer(); // Запускаем сервер
+         new EchoServer().startServer(); // Запускаем сервер.
 
     }
 

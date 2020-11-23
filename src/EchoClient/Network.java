@@ -68,7 +68,7 @@ public class Network {
                 }
             } catch (IOException e){
                 e.printStackTrace();
-                System.out.println("Error connection");
+                System.out.println("Error connection.");
             }
         });
         threadWait.setDaemon(true);

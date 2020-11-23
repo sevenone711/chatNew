@@ -45,7 +45,7 @@ public class EchoServer {
     private Thread inMessage (DataInputStream in){
         Thread inputThread = new Thread(() ->
         {
-            while (!Thread.currentThread().isInterrupted()){ //Если ловим иссключение прерываем цикл
+            while (!Thread.currentThread().isInterrupted()){ //Если ловим иссключение прерываем цикл!
 
                 try {
                     String inMassega = in.readUTF();

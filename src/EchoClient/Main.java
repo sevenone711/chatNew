@@ -24,7 +24,7 @@ public class Main extends Application {
 
         Network network = new Network();
         if (!network.connect()){
-            System.out.println("Error network");
+            System.out.println("Error network!");
         }
         Controller controller = loader.getController();
         controller.setNetwork(network);

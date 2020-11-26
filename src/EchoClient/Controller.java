@@ -50,7 +50,7 @@ public class Controller {
     }
 
     public void appentMassege (String messega) {
-        chatField.appendText(messega); //Добавили текст в поле чата1
+        chatField.appendText(messega); //Добавили текст в поле чата1.
         chatField.appendText(System.lineSeparator());  //сепаратор для того что бы с новой строки начиналось следующее сообщение!
     }
 
